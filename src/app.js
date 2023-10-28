@@ -14,7 +14,6 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
 
-
 app.use("/api", usuarioRoutes);
 app.use("/api", publicacionRoutes);
 app.use("/api", comentarioRoutes);
