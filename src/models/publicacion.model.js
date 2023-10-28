@@ -10,6 +10,8 @@ const publicacionSchema = new mongoose.Schema({
     }
 })
 
+
 const Publicacion = mongoose.model("Publicacion", publicacionSchema);
+
 
 export default Publicacion;
